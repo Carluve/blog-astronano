@@ -1,0 +1,36 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+
+const title = "About";
+const description = "Sobre mí";
+---
+
+<PageLayout title={title} description={description}>
+  <Container>
+    <div class="space-y-10">
+      <div class="animate font-semibold text-black dark:text-white">
+        Carlos Luengo Vera
+      </div>
+      <article class="animate space-y-4">
+        <p>
+          Soy investigador de IA centrado en aplicar Generative AI para resolver retos reales en educación, empresa y servicios públicos. Actualmente soy doctorando y trabajo con instituciones para diseñar estrategias de innovación impulsadas por IA y cloud.
+        </p>
+        <p>
+          Mi trayectoria incluye equipos de innovación en Telefónica, Lenovo y Microsoft. Fuera del trabajo, disfruto pedaleando por Madrid, descubriendo nuevas ciudades y compartiendo ideas sobre cómo la tecnología transforma la forma en que aprendemos y vivimos.
+        </p>
+        <p>
+          Este sitio recoge proyectos, investigación y reflexiones: bienvenido/a a mi cuaderno de ideas.
+        </p>
+        <ul>
+          <li>GitHub: <a href="https://github.com/carluve" target="_blank" rel="noopener noreferrer">https://github.com/carluve</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/carlosluengo/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/carlosluengo/</a></li>
+          <li>ORCID: <a href="https://orcid.org/0009-0008-2591-1210" target="_blank" rel="noopener noreferrer">https://orcid.org/0009-0008-2591-1210</a></li>
+          <li>Publications: <a href="https://carluve.github.io/publications/" target="_blank" rel="noopener noreferrer">https://carluve.github.io/publications/</a></li>
+          <li>Teaching: <a href="https://carluve.github.io/teaching/" target="_blank" rel="noopener noreferrer">https://carluve.github.io/teaching/</a></li>
+          <li>Portfolio: <a href="https://carluve.github.io/portfolio/" target="_blank" rel="noopener noreferrer">https://carluve.github.io/portfolio/</a></li>
+        </ul>
+      </article>
+    </div>
+  </Container>
+</PageLayout>
